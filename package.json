@@ -1,0 +1,19 @@
+{
+    "name": "02-Homework",
+    "version": "1.0.0",
+    "description": "Create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command:",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "electron-html-to": "^2.6.0",
+        "fs": "0.0.1-security",
+        "github-scraper": "^6.8.0",
+        "inquirer": "^7.0.1",
+        "util": "^0.12.1"
+    }
+}
